@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using PublicLibrary.Models;
+
 namespace PublicLibrary.DAL
 {
     public class PublicLibraryContext: DbContext 
@@ -10,5 +11,6 @@ namespace PublicLibrary.DAL
         }
 
         public DbSet<Book> Books { get; set; }
+        public DbSet<Form> Forms { get; set; }
     }
 }

@@ -10,7 +10,7 @@ using PublicLibrary.BAL.Services;
 
 namespace PublicLibraryTest
 {
-    public class BALTest
+    public class BookBALTest
     {
         [Fact]
         public void ShouldReturnAll()
@@ -55,5 +55,6 @@ namespace PublicLibraryTest
             Assert.Equal(3, booksReturned4.Count());
 
         }
+
     }
 }

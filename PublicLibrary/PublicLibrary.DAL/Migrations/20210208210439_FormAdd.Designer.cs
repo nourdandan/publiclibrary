@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PublicLibrary.DAL;
 
 namespace PublicLibrary.DAL.Migrations
 {
     [DbContext(typeof(PublicLibraryContext))]
-    partial class PublicLibraryContextModelSnapshot : ModelSnapshot
+    [Migration("20210208210439_FormAdd")]
+    partial class FormAdd
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

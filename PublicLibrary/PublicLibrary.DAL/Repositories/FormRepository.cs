@@ -6,22 +6,23 @@ using System.Text;
 
 namespace PublicLibrary.DAL.Repositories
 {
-    public class BookRepository: IBookRepository
+    public class FormRepository: IFormRepository
     {
         private PublicLibraryContext dbContext;
-        public BookRepository(IDbFactory dbFactory)
+
+        public FormRepository(IDbFactory dbFactory)
         {
             dbContext = dbFactory.Init();
         }
 
-        public IEnumerable<Book> GetAll()
+        public void Add(Form form)
         {
-            return dbContext.Books;
+            dbContext.Add(form);
         }
 
-        public void Add(Book book)
+        public IEnumerable<Form> GetAll()
         {
-            dbContext.Add(book);
+            return dbContext.Forms;
         }
     }
 }

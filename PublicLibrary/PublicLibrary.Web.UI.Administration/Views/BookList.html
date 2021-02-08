@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>List of books - Public library</title>
+</head>
+<body>
+    <script>
+
+        loadData();
+        function loadData() {
+            $.ajax({
+                type: 'GET',
+                url: "/Book/GetBooks",
+                contentType: "text/plain",
+                dataType: 'json',
+                success: function (data) {
+                    populateDataTable(data);
+                },
+                error: function (e) {
+                    console.log("There was an error with your request...");
+                    console.log("error: " + JSON.stringify(e));
+                }
+            });
+        }
+
+        function populateDataTable(data) {
+            console.log("populating data table...");
+            // clear the table before populating it with more data
+            $.each(data, function (i, val)  {
+                $("#books").append('<div id='+i + '><p><b>Book Name</b>: '+val.name+' <b>Author Name</b>: '+val.authorName+'</p> </div>');
+            });
+        }
+    </script>
+        <h2>List of Books:</h2>
+        <br />
+        <div id="books">
+
+        </div>
+
+    <div>
+        Any Questions?  <a href="/book/form">Contact us</a>
+    </div>
+</body>
+</html>

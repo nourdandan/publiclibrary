@@ -37,7 +37,9 @@ namespace PublicLibrary.Web.UI.Administration
 
             services.AddTransient<IDbFactory, DbFactory>();
             services.AddTransient<IBookRepository, BookRepository>();
+            services.AddTransient<IFormRepository, FormRepository>();
             services.AddTransient<IBooksService, BooksService>();
+            services.AddTransient<IFormsService, FormsService>();
         }
 
 
@@ -65,7 +67,7 @@ namespace PublicLibrary.Web.UI.Administration
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Book}/{action=Index}/{id?}");
             });
         }
     }
