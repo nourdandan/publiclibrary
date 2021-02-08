@@ -1,0 +1,15 @@
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.BAL\bin\Debug\netcoreapp3.1\PublicLibrary.BAL.deps.json
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.BAL\bin\Debug\netcoreapp3.1\PublicLibrary.BAL.dll
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.BAL\bin\Debug\netcoreapp3.1\PublicLibrary.BAL.pdb
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.BAL\obj\Debug\netcoreapp3.1\PublicLibrary.BAL.csprojAssemblyReference.cache
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.BAL\obj\Debug\netcoreapp3.1\PublicLibrary.BAL.AssemblyInfoInputs.cache
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.BAL\obj\Debug\netcoreapp3.1\PublicLibrary.BAL.AssemblyInfo.cs
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.BAL\obj\Debug\netcoreapp3.1\PublicLibrary.BAL.csproj.CoreCompileInputs.cache
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.BAL\obj\Debug\netcoreapp3.1\PublicLibrary.BAL.dll
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.BAL\obj\Debug\netcoreapp3.1\PublicLibrary.BAL.pdb
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.BAL\bin\Debug\netcoreapp3.1\PublicLibrary.DAL.dll
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.BAL\bin\Debug\netcoreapp3.1\PublicLibrary.Models.dll
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.BAL\bin\Debug\netcoreapp3.1\PublicLibrary.DAL.pdb
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.BAL\bin\Debug\netcoreapp3.1\PublicLibrary.DAL.dll.config
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.BAL\bin\Debug\netcoreapp3.1\PublicLibrary.Models.pdb
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.BAL\obj\Debug\netcoreapp3.1\PublicLibrary.BAL.csproj.CopyComplete

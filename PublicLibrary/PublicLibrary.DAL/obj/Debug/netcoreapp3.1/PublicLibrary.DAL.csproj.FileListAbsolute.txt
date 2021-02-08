@@ -1,0 +1,16 @@
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.DAL\bin\Debug\netcoreapp3.1\PublicLibrary.Models.dll
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.DAL\obj\Debug\netcoreapp3.1\PublicLibrary.DAL.csprojAssemblyReference.cache
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.DAL\obj\Debug\netcoreapp3.1\PublicLibrary.DAL.AssemblyInfoInputs.cache
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.DAL\obj\Debug\netcoreapp3.1\PublicLibrary.DAL.AssemblyInfo.cs
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.DAL\bin\Debug\netcoreapp3.1\PublicLibrary.DAL.deps.json
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.DAL\bin\Debug\netcoreapp3.1\PublicLibrary.DAL.dll
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.DAL\bin\Debug\netcoreapp3.1\PublicLibrary.DAL.pdb
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.DAL\bin\Debug\netcoreapp3.1\PublicLibrary.Models.pdb
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.DAL\obj\Debug\netcoreapp3.1\PublicLibrary.DAL.csproj.CoreCompileInputs.cache
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.DAL\obj\Debug\netcoreapp3.1\PublicLibrary.DAL.csproj.CopyComplete
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.DAL\obj\Debug\netcoreapp3.1\PublicLibrary.DAL.dll
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.DAL\obj\Debug\netcoreapp3.1\PublicLibrary.DAL.pdb
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.DAL\bin\Debug\netcoreapp3.1\PublicLibrary.DAL.dll.config
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.DAL\bin\Debug\netcoreapp3.1\PublicLibrary.DAL.runtimeconfig.json
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.DAL\bin\Debug\netcoreapp3.1\PublicLibrary.DAL.runtimeconfig.dev.json
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.DAL\obj\Debug\netcoreapp3.1\PublicLibrary.DAL.genruntimeconfig.cache

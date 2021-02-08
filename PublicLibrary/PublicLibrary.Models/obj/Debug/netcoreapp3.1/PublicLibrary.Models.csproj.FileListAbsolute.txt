@@ -1,0 +1,12 @@
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.Models\bin\Debug\netcoreapp3.1\PublicLibrary.Models.deps.json
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.Models\bin\Debug\netcoreapp3.1\PublicLibrary.Models.dll
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.Models\bin\Debug\netcoreapp3.1\PublicLibrary.Models.pdb
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.Models\obj\Debug\netcoreapp3.1\PublicLibrary.Models.csprojAssemblyReference.cache
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.Models\obj\Debug\netcoreapp3.1\PublicLibrary.Models.AssemblyInfoInputs.cache
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.Models\obj\Debug\netcoreapp3.1\PublicLibrary.Models.AssemblyInfo.cs
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.Models\obj\Debug\netcoreapp3.1\PublicLibrary.Models.csproj.CoreCompileInputs.cache
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.Models\obj\Debug\netcoreapp3.1\PublicLibrary.Models.dll
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.Models\obj\Debug\netcoreapp3.1\PublicLibrary.Models.pdb
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.Models\bin\Debug\netcoreapp3.1\PublicLibrary.Models.runtimeconfig.json
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.Models\bin\Debug\netcoreapp3.1\PublicLibrary.Models.runtimeconfig.dev.json
+C:\Git\PublicLibrary\PublicLibrary\PublicLibrary.Models\obj\Debug\netcoreapp3.1\PublicLibrary.Models.genruntimeconfig.cache
