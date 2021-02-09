@@ -12,13 +12,14 @@ using Microsoft.EntityFrameworkCore;
 using PublicLibrary.DAL.Infrastructure;
 using PublicLibrary.BAL.Services;
 using PublicLibrary.DAL.Repositories;
+using Microsoft.Extensions.Logging;
+using PublicLibrary.Web.UI.Administration.Helpers;
 
 namespace PublicLibrary.Web.UI.Administration
 {
     public class Startup
     {
-
-        public Startup(IConfiguration configuration)
+        public Startup(IConfiguration configuration )
         {
             Configuration = configuration;
         }
@@ -28,6 +29,7 @@ namespace PublicLibrary.Web.UI.Administration
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
             services.AddControllersWithViews();
 
             services.AddLogging();
@@ -40,6 +42,8 @@ namespace PublicLibrary.Web.UI.Administration
             services.AddTransient<IFormRepository, FormRepository>();
             services.AddTransient<IBooksService, BooksService>();
             services.AddTransient<IFormsService, FormsService>();
+            services.AddTransient<IErrorHandler, ErrorHandler>();
+
         }
 
 

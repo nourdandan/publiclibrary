@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>
@@ -24,6 +24,7 @@
     <ProjectReference Include="..\PublicLibrary.BAL\PublicLibrary.BAL.csproj" />
     <ProjectReference Include="..\PublicLibrary.DAL\PublicLibrary.DAL.csproj" />
     <ProjectReference Include="..\PublicLibrary.Models\PublicLibrary.Models.csproj" />
+    <ProjectReference Include="..\PublicLibrary.Web.UI.Administration\PublicLibrary.Web.UI.Administration.csproj" />
   </ItemGroup>
 
 </Project>
