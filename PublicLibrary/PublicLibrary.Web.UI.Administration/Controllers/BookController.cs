@@ -57,10 +57,6 @@ namespace PublicLibrary.Web.UI.Administration.Controllers
         [HttpPost]
         public IActionResult PostQuestion(string bookName, string authorName, string question)
         {
-            if (!ModelState.IsValid)
-            {
-                return Index();
-            }
             _formsService.AddFormQuery(new Form { AuthorName = authorName, BookName = bookName, Question = question });
             return Index();
         }

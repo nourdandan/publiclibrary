@@ -6,7 +6,7 @@ using System.Text;
 
 namespace PublicLibrary.BAL.Services
 {
-    public class FormsService : ValidatorService , IFormsService
+    public class FormsService : IFormsService
     {
         private readonly IFormRepository _formRepository;
 
