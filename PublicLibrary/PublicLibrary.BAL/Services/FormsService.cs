@@ -6,7 +6,7 @@ using System.Text;
 
 namespace PublicLibrary.BAL.Services
 {
-    public class FormsService : IFormsService
+    public class FormsService : ValidatorService , IFormsService
     {
         private readonly IFormRepository _formRepository;
 
@@ -17,6 +17,7 @@ namespace PublicLibrary.BAL.Services
 
         public void AddFormQuery(Form form)
         {
+            if(form.IsValid())
             _formRepository.Add(form);
         }
 

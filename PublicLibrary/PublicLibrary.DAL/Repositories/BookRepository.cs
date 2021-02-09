@@ -22,6 +22,7 @@ namespace PublicLibrary.DAL.Repositories
         public void Add(Book book)
         {
             dbContext.Add(book);
+            dbContext.SaveChanges();
         }
     }
 }

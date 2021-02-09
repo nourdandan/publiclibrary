@@ -6,7 +6,7 @@ using System.Text;
 
 namespace PublicLibrary.Models
 {
-    public class Form
+    public class Form : IValidatable
     {
         public int Id { get; set; }
 
@@ -26,5 +26,6 @@ namespace PublicLibrary.Models
 
         [NotMapped]
         private const string errorStringLengthMessage = "{0} length can't be more than {1}.";
+
     }
 }

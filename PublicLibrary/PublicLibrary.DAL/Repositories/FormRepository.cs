@@ -18,6 +18,7 @@ namespace PublicLibrary.DAL.Repositories
         public void Add(Form form)
         {
             dbContext.Add(form);
+            dbContext.SaveChanges();
         }
 
         public IEnumerable<Form> GetAll()
